@@ -1,85 +1,82 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "es6": true
+    'env': {
+        'browser': true,
+        'es6': true
     },
-    "plugins": [
-        "sort-requires"
+    'plugins': [
+        'sort-requires'
     ],
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "sourceType": "module"
+    'extends': 'eslint:recommended',
+    'parserOptions': {
+        'sourceType': 'module'
     },
-    "globals": {
-        "require": true,
-        "module": true,
-        "describe": true,
-        "it": true
+    'globals': {
+        'require': true,
+        'module': true,
+        'describe': true,
+        'it': true
     },
-    "rules": {
-        "indent": [
-            "error",
+    'rules': {
+        'indent': [
+            'error',
             4
         ],
-        "linebreak-style": [
-            "error",
-            "unix"
+        'linebreak-style': [
+            'error',
+            'unix'
         ],
-        "quotes": [
-            "error",
-            "single"
+        'quotes': [
+            'error',
+            'single'
         ],
-        "semi": [
-            "error",
-            "always"
+        'semi': [
+            'error',
+            'always'
         ],
-        "eqeqeq": [
-            "error",
-            "always"
+        'eqeqeq': [
+            'error',
+            'always'
         ],
-        "prefer-const": [
-            "error", {
-                "destructuring": "any"
+        'prefer-const': [
+            'error', {
+                'destructuring': 'any'
             }
         ],
-        "no-trailing-spaces": [
-            "error"
+        'no-trailing-spaces': [
+            'error'
         ],
-        "object-shorthand": [
-            "error",
-            "always", {
-                "avoidQuotes": true
+        'object-shorthand': [
+            'error',
+            'always', {
+                'avoidQuotes': true
             }
         ],
-        "brace-style": [
-            "error",
-            "stroustrup",
+        'brace-style': [
+            'error',
+            'stroustrup',
             {
-                "allowSingleLine": true
+                'allowSingleLine': true
             }
         ],
-        "sort-requires/sort-requires": [
-            "error"
+        'sort-requires/sort-requires': [
+            'error'
         ],
-        "keyword-spacing": [
-            "error"
+        'keyword-spacing': [
+            'error'
         ],
-        "strict": [
-            "error"
+        'strict': [
+            'error'
         ],
-        "eol-last": [
-            "error",
-            "always"
+        'eol-last': [
+            'error',
+            'always'
         ],
-        "no-multiple-empty-lines": [
-            "error", 
+        'no-multiple-empty-lines': [
+            'error',
             {
-                "max": 2,
-                "maxEOF": 1
+                'max': 2,
+                'maxEOF': 1
             }
-        ],
-        "no-trailing-spaces": [
-            "error"
         ]
     }
 };

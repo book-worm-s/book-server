@@ -1,7 +1,7 @@
 // All Imports Here
-const express = require('express');
-const dotenv = require('dotenv');
 const cors = require('cors');
+const dotenv = require('dotenv');
+const express = require('express');
 
 dotenv.config();
 
@@ -12,13 +12,10 @@ app.use(express.json());
 app.use(express.urlencoded({extended : true}));
 
 
-
 // Import All Routers helper
 
 
-
 // Use All Routers inorder Here.
-
 
 
 module.exports = app;
