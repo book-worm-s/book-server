@@ -4,7 +4,8 @@
   "description": "Book-Server",
   "main": "index.js",
   "scripts": {
-    "dev-server": "node index.js"
+    "dev-server": "node index.js",
+    "lint" : "eslint ./ --fix"
   },
   "pre-commit": [
     "lint"
