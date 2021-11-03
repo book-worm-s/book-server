@@ -4,7 +4,6 @@
   "description": "Book-Server",
   "main": "index.js",
   "scripts": {
-    "lint": "node_modules/.bin/eslint .",
     "dev-server": "node index.js"
   },
   "pre-commit": [
@@ -26,12 +25,16 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-sort-requires": "^2.1.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.4.1"
   }
 }

@@ -6,10 +6,10 @@ const express = require('express');
 dotenv.config();
 
 // Setting up App Here
-var app = express();
+const app = express();
 app.use(cors());
 app.use(express.json());
-app.use(express.urlencoded({extended : true}));
+app.use(express.urlencoded({extended: true}));
 
 
 // Import All Routers helper
