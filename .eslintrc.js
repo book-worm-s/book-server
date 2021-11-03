@@ -6,8 +6,10 @@ module.exports = {
     plugins: ['sort-requires', 'prettier'],
     extends: ['eslint:recommended', 'prettier'],
     parserOptions: {
-        sourceType: 'module'
+        sourceType: 'module',
+        requireConfigFile: false,
     },
+    'parser': '@babel/eslint-parser',
     globals: {
         require: true,
         module: true,
